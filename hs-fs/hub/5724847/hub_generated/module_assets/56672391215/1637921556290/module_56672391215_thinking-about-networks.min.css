@@ -1,0 +1,128 @@
+.think-cyient {
+    padding: 60px 0 0;
+    background-color: #e7e7e7
+}
+
+.think-cyient .first-box h2 {
+    letter-spacing: 0px;
+    color: #333;
+    font-size: 50px
+}
+
+.think-cyient .first-box h2:before {
+    content: "";
+    padding: 3px;
+    display: block;
+    background: #0c9ba9;
+    max-width: 40px;
+    margin-bottom: 10px
+}
+
+.think-cyient .first-box {
+    position: relative
+}
+
+.think-cyient .first-box:before {
+    content: "";
+    position: absolute;
+    padding: 2px;
+    left: 15%;
+    top: 20px;
+    display: block;
+    background: #dcdad8;
+    width: 70%;
+    margin-bottom: 10px
+}
+
+.think-cyient .content-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end
+}
+
+.think-cyient .first-box {
+    flex: 1 1 44%;
+    max-width: 44%
+}
+
+.think-cyient .other-box {
+    flex: 1 1 30%;
+    max-width: 27%;
+    min-height: 290px;
+    max-height: 290px;
+    padding: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center
+}
+
+.think-cyient .other-box .data-number {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1;
+    margin: 0;
+    display: block;
+    align-self: flex-end
+}
+
+.think-cyient .other-box .details {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%
+}
+
+.think-cyient .other-box .description {
+    font-size: 18px;
+    line-height: 1.2;
+    align-self: flex-end;
+    padding: 0 !important
+}
+
+.think-cyient .content-wrapper .first-box+.other-box {
+    margin-top: 00px
+}
+
+.think-cyient .content-wrapper .other-box:nth-of-type(4),
+.think-cyient .content-wrapper .other-box:nth-of-type(6),
+.think-cyient .content-wrapper .other-box:nth-of-type(3) {
+    position: relative;
+    bottom: -20px;
+    z-index: 9
+}
+
+.think-cyient .content-wrapper .other-box:nth-of-type(5) {
+    margin-top: 00px
+}
+
+@media(max-width:991px) {
+    .think-cyient .first-box h2 {
+        font-size: 42px
+    }
+    .think-cyient .other-box {
+        padding: 20px 10px
+    }
+    .think-cyient .other-box .data-number {
+        font-size: 50px
+    }
+    .think-cyient .other-box .description {
+        font-size: 20px
+    }
+}
+
+@media(max-width:767px) {
+    .think-cyient {
+        padding: 30px 0 0
+    }
+    .think-cyient .first-box h2 {
+        font-size: 40px
+    }
+    .think-cyient .first-box,
+    .think-cyient .other-box {
+        flex: 1 1 100%;
+        max-width: 100%;
+        margin: 0 0 20px !Important;
+        position: relative;
+        top: unset !important;
+        bottom: unset !Important
+    }
+}

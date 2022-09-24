@@ -1,0 +1,200 @@
+a:hover {
+    text-decoration: none
+}
+
+a:hover {
+    text-decoration: none
+}
+
+.fourboxes {
+    text-align: left;
+    padding: 30px;
+    font-size: 0
+}
+
+.four-link {
+    display: inline-block;
+    width: 24%;
+    font-size: 16px;
+    text-align: center;
+    background: #f1f1f1;
+    margin: .5%;
+    overflow: hidden;
+    color: #66696d
+}
+
+.four-link img {
+    display: block;
+    width: 48px;
+    height: 48px;
+    margin: 2em auto
+}
+
+.foo img:last-child {
+    display: none
+}
+
+.four-link:hover {
+    background: #009ca6;
+    color: #fff;
+    text-decoration: none
+}
+
+.four-link:hover img:first-child {
+    display: none
+}
+
+.foo:hover img:first-child {
+    display: none
+}
+
+.foo:hover img:last-child {
+    display: inline-block
+}
+
+.four-link:hover img:last-child {
+    display: inline-block
+}
+
+.four-link p {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 24px;
+    letter-spacing: 1px;
+    float: left;
+    text-align: center;
+    padding: 0px 10px;
+    margin: 0;
+    width: 100%
+}
+
+.fourtextlinks {
+    text-align: left;
+    padding: 30px;
+    font-size: 0
+}
+
+.fourlink {
+    display: inline-block;
+    width: 24%;
+    font-size: 16px;
+    text-align: center;
+    background: rgba(239, 239, 238, .4);
+    margin: .5%;
+    color: #66696d
+}
+
+.fourlink span {
+    display: block;
+    width: 48px;
+    height: 48px;
+    margin: 2em auto
+}
+
+.foo img:last-child {
+    display: none
+}
+
+.fourlink:hover {
+    background: #009ca6;
+    color: #fff;
+    text-decoration: none
+}
+
+.fourlink:hover img:first-child {
+    display: none
+}
+
+.foo:hover img:first-child {
+    display: none
+}
+
+.foo:hover img:last-child {
+    display: inline-block
+}
+
+.fourlink:hover img:last-child {
+    display: inline-block
+}
+
+.fourlink p {
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 24px;
+    float: left;
+    text-align: center;
+    padding: 0px 10px;
+    margin: 0 5%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0
+}
+
+.innerheight {
+    display: flex
+}
+
+span.hs-cta-wrapper {
+    width: inherit;
+    height: inherit;
+    margin-top: -16px
+}
+
+span.hs-cta-node {
+    width: inherit;
+    height: inherit
+}
+
+@media(min-width:0px) and (max-width:479px) {
+    .four-link {
+        height: 100% !important
+    }
+}
+
+@media(min-width:0px) and (max-width:767px) {
+    .four-link p {
+        font-size: 14px
+    }
+    .fourboxes {
+        padding: 20px 0
+    }
+    .four-link {
+        width: 100%;
+        padding: 0 0 30px
+    }
+}
+
+@media(min-width:480px) and (max-width:767px) {
+    .four-link {
+        width: 49%
+    }
+    .four-link p {
+        font-size: 14px
+    }
+}
+
+@media(min-width:768px) and (max-width:991px) {
+    .four-link span {
+        margin: 2em auto 1em
+    }
+    .fourboxes {
+        padding: 20px 0
+    }
+    .four-link {
+        width: 32%
+    }
+    .four-link p {
+        font-size: 15px
+    }
+    .four-link h3 {
+        font-size: 20px
+    }
+}
+
+@media(min-width:992px) and (max-width:1199px) {
+    .four-link p {
+        font-size: 15px
+    }
+}

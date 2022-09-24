@@ -1,0 +1,122 @@
+.banner-slider-wrapper .comminication-banner {
+    padding: 100px 0px 100px 0px;
+    background-size: cover;
+    background-position: center
+}
+
+.banner-slider-wrapper .slick-slide img {
+    max-width: 100px
+}
+
+.comminication-banner-inner a {
+    color: #fff !important;
+    padding: 12px 20px;
+    display: inline-block;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: all .3s ease;
+    background: #0c9ba9;
+    padding-top: 60px;
+    background-image: url(https://f.hubspotusercontent40.net/hubfs/5724847/Icn_Cyi_Btn_TTE_Next.svg);
+    background-repeat: no-repeat;
+    background-size: 24px;
+    background-position: 89% 10px;
+    min-width: 125px
+}
+
+.comminication-banner-inner a:hover {
+    text-decoration: none !important
+}
+
+.banner-slider-wrapper.slick-dotted.slick-slider {
+    margin-bottom: 0
+}
+
+.banner-slider-wrapper .comminication-banner {
+    height: 95vh;
+    display: flex !important;
+    align-items: center
+}
+
+.banner-slider-wrapper .slick-dots {
+    position: absolute;
+    bottom: 50px;
+    padding: 0;
+    left: 0;
+    width: 100%
+}
+
+.banner-slider-wrapper ul.slick-dots li {
+    display: inline-block;
+    padding: 0 4px
+}
+
+.banner-slider-wrapper ul.slick-dots li button {
+    padding: 0;
+    display: inline-block;
+    width: 20px;
+    height: 2px;
+    font-size: 0;
+    text-index: -9999;
+    cursor: pointer;
+    background: #eee
+}
+
+.banner-slider-wrapper .slick-dots li button:before {
+    display: none
+}
+
+.banner-slider-wrapper ul.slick-dots li button:hover,
+.banner-slider-wrapper ul.slick-dots li.slick-active button {
+    background: #009ca5
+}
+
+.banner-slider-wrapper .communication-banner-cta {
+    padding-top: 40px
+}
+
+.banner-slider-wrapper .comminication-banner h1 {
+    text-align: left;
+    letter-spacing: 0px;
+    color: #fff;
+    font-size: 50px;
+    font-weight: 600;
+    max-width: 780px;
+    padding-bottom: 10px
+}
+
+.banner-slider-wrapper .comminication-banner h2 {
+    text-align: left;
+    letter-spacing: 0px;
+    color: #fff;
+    font-size: 50px;
+    font-weight: 600;
+    max-width: 780px;
+    padding-bottom: 10px
+}
+
+.banner-slider-wrapper .comminication-banner p {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 100
+}
+
+.banner-slider-wrapper .comminication-banner-inner {
+    max-width: 850px;
+    margin: 0 auto
+}
+
+@media(max-width:767px) {
+    .banner-slider-wrapper .comminication-banner-inner {
+        padding: 0px 24px
+    }
+    .banner-slider-wrapper .comminication-banner {
+        padding: 38px 0px 100px 0px
+    }
+    .banner-slider-wrapper .comminication-banner h1 {
+        font-size: 36px
+    }
+    .banner-slider-wrapper .communication-banner-cta {
+        padding: 0px 24px
+    }
+}

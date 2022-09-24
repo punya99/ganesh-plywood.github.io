@@ -1,0 +1,120 @@
+.investment {
+    padding: 80px 0px 40px
+}
+
+.invest-head h2:before {
+    content: "";
+    padding: 3px;
+    display: block;
+    background: #0c9ba9;
+    max-width: 40px;
+    margin-bottom: 10px
+}
+
+.row.investment-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly
+}
+
+.investment .col-lg-4:nth-child(5) .investment-sec {
+    display: none
+}
+
+.invest-head h2 {
+    margin: 0px;
+    padding-bottom: 50px;
+    font-size: 50px;
+    font-weight: 600;
+    text-transform: capitalize
+}
+
+.investment .col-lg-4:nth-child(2) .investment-sec {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse
+}
+
+.investment-sec span {
+    color: #009ca6
+}
+
+.investment-details a {
+    color: #0c9ba9
+}
+
+.investment-details {
+    padding: 50px 38px 0px;
+    max-height: 320px;
+    height: 320px
+}
+
+.investment-details p.invest-p {
+    margin: 0px;
+    padding-bottom: 40px
+}
+
+.invest-p {
+    font-size: 20px;
+    font-weight: 800;
+    position: relative
+}
+
+.invest-p::before {
+    position: absolute;
+    content: "";
+    background: #009ca6;
+    padding: 1px;
+    bottom: 10px;
+    left: 30px;
+    width: 2px;
+    height: 25px
+}
+
+.investment-img:hover img {
+    transform: scale(1.1);
+    transition: all .3s
+}
+
+.investment-img {
+    overflow: hidden;
+    width: 100%;
+    border-radius: 15px;
+    border: 1px solid #0c9ba9
+}
+
+@media(max-width:767px) {
+    .investment-details {
+        height: auto;
+        padding: 30px
+    }
+    .investment {
+        padding-bottom: 20px
+    }
+    .investment .col-lg-4:nth-child(2) .investment-sec {
+        flex-direction: unset
+    }
+    .invest-head h2 {
+        font-size: 28px
+    }
+    .img-para-box .details .title {
+        font-size: 30px !important
+    }
+    .img-para-box .details .para {
+        font-size: 16px !important
+    }
+}
+
+@media(min-width:768px) and (max-width:1191px) {
+    .investment-details {
+        max-height: 320px;
+        height: 320px;
+        padding: 50px 18px 0px
+    }
+    .investment-details p {
+        font-size: 16px
+    }
+    .investment-details .invest-p {
+        font-size: 20px
+    }
+}

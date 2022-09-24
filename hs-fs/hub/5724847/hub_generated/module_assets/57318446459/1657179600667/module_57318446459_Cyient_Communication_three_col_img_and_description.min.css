@@ -1,0 +1,158 @@
+.three-col-img-para {
+    padding: 60px 0
+}
+
+.three-col-img-para .top-row {
+    display: flex;
+    color: #fff
+}
+
+.three-col-img-para .top-row>* {
+    flex: 1 1 50%;
+    max-width: 50%
+}
+
+section.three-col-img-para .main-heading {
+    font-size: 50px
+}
+
+.img-para-wrapper-main {
+    display: flex;
+    justify-content: flex-end;
+    padding: 40px 0 0;
+    margin: 20px 0 0
+}
+
+.img-para-wrapper {
+    flex: 1 1 100%;
+    max-width: 93%;
+    display: flex;
+    gap: 25px;
+    justify-content: flex-end
+}
+
+.img-para-box {
+    flex: 1 1 33%;
+    max-width: 33%
+}
+
+.img-para-box .img-container {
+    position: relative
+}
+
+.img-para-box .img-container span {
+    top: -55px;
+    left: 5px;
+    font-size: 70px;
+    position: absolute;
+    z-index: 99999;
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #fff
+}
+
+.img-para-box .details {
+    margin: 15px 0 0;
+    color: #fff;
+    padding: 0 10px
+}
+
+.img-para-box .details .title {
+    font-weight: 700;
+    font-size: 20px
+}
+
+.img-para-box .details .para {
+    font-size: 14px
+}
+
+.three-col-img-para .top-row .main-heading:before {
+    content: "";
+    padding: 3px;
+    display: block;
+    background: #fff;
+    max-width: 40px;
+    margin-bottom: 10px
+}
+
+.three-col-img-para .top-row .main-heading {
+    align-self: flex-start;
+    flex: 1 1 100%;
+    max-width: 100%;
+    padding-right: 0;
+    padding-bottom: 20px
+}
+
+.three-col-img-para .top-row .main-para {
+    align-self: flex-end;
+    flex: 1 1 50%;
+    max-width: 50%
+}
+
+@media(min-width:1600px) {
+    .img-para-wrapper {
+        max-width: 70%
+    }
+}
+
+@media(min-width:1920px) {
+    .img-para-wrapper {
+        max-width: 1500px
+    }
+}
+
+@media(max-width:991px) {
+    .img-para-box .img-container span {
+        font-size: 50px;
+        top: -40px
+    }
+}
+
+@media(max-width:568px) {
+    .img-para-wrapper {
+        max-width: 100%;
+        flex-wrap: wrap;
+        padding: 0 10px
+    }
+    .img-para-box {
+        flex: 1 1 100%;
+        max-width: 100%;
+        margin: 30px 0 0
+    }
+    .three-col-img-para .top-row {
+        flex-wrap: wrap
+    }
+    .three-col-img-para .top-row .main-heading,
+    .three-col-img-para .top-row .main-para {
+        flex: 1 1 100%;
+        max-width: 100%
+    }
+    .img-para-wrapper-main {
+        padding: 10px 0 0
+    }
+}
+
+section.three-col-img-para {
+    position: relative;
+    overflow: hidden
+}
+
+section.three-col-img-para:after {
+    position: absolute;
+    content: "";
+    z-index: 1;
+    background-image: url(https://f.hubspotusercontent40.net/hubfs/5724847/Cyient%20Home%20New%202021%20Images/Group%201.png);
+    width: 50%;
+    height: 100%;
+    right: -26%;
+    top: 0;
+    z-index: 0;
+    background-size: contain;
+    background-repeat: no-repeat
+}
+
+section.three-col-img-para .container,
+section.three-col-img-para .img-para-wrapper-main {
+    position: relative;
+    z-index: 1
+}

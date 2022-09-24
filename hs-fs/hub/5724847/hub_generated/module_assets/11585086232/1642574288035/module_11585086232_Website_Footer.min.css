@@ -1,0 +1,324 @@
+.footer-menu {
+    background: #323333;
+    float: left;
+    width: 100%;
+    margin-top: 0
+}
+
+.new-footer-social {
+    background: #029ca6;
+    padding: 24px 70px
+}
+
+.footer-follow-txt {
+    font-size: 20px;
+    color: #fff;
+    padding: 14px 0
+}
+
+.footer-follow-txt,
+.new-footer-list {
+    display: inline-block;
+    vertical-align: middle
+}
+
+.new-footer-list {
+    float: right
+}
+
+.container .footerlist {
+    padding: 5px;
+    margin-bottom: 5px;
+    padding-right: 0;
+    margin-top: 5px
+}
+
+.footerlist {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    float: left
+}
+
+.new-footer-list .footerlist li {
+    margin: 0 12px 0 0
+}
+
+.footerlist li {
+    display: inline-block;
+    margin: 0 5px 0 0;
+    height: 52px !important;
+    width: 44px !important
+}
+
+.new-linkedin {
+    box-shadow: 0px 2px 6px 0px #131313;
+    background: url(https://cdn2.hubspot.net/hubfs/5724847/Cyient-Website-2019/Header-Footer%20Images/iocn4.png) no-repeat center center;
+    height: 35px !important;
+    width: 35px !important;
+    margin-top: 4px
+}
+
+.new-xing {
+    box-shadow: 0px 2px 6px 0px #131313;
+    background: url(https://cdn2.hubspot.net/hubfs/5724847/Cyient-Website-2019/Header-Footer%20Images/icon1.png) no-repeat center center;
+    height: 35px !important;
+    width: 35px !important;
+    margin-top: 4px
+}
+
+.new-yt {
+    box-shadow: 0px 2px 6px 0px #131313;
+    background: url(https://cdn2.hubspot.net/hubfs/5724847/Cyient-Website-2019/Header-Footer%20Images/icon5.png) no-repeat center center;
+    height: 35px !important;
+    width: 35px !important;
+    margin-top: 4px
+}
+
+.new-twitter {
+    box-shadow: 0px 2px 6px 0px #131313;
+    background: url(https://cdn2.hubspot.net/hubfs/5724847/Cyient-Website-2019/Header-Footer%20Images/icon3.png) no-repeat center center;
+    height: 35px !important;
+    width: 35px !important;
+    margin-top: 4px
+}
+
+.new-facebook {
+    box-shadow: 0px 2px 6px 0px #131313;
+    background: url(https://cdn2.hubspot.net/hubfs/5724847/Cyient-Website-2019/Header-Footer%20Images/icon2.png) no-repeat center center;
+    height: 35px !important;
+    width: 35px !important;
+    margin-top: 4px
+}
+
+.inlinkedin,
+.infacebook,
+.intwitter,
+.inyoutube,
+.inx,
+.inchat {
+    width: 32px;
+    height: 32px;
+    display: block;
+    transition: all .5s
+}
+
+.footer-menu-part ul li:first-child {
+    padding: 0
+}
+
+.footer-menu-part {
+    padding-top: 40px;
+    padding-bottom: 40px
+}
+
+.footer-menu-part ul {
+    overflow: hidden;
+    padding: 0;
+    list-style: none
+}
+
+.footer-menu-part ul li {
+    vertical-align: top;
+    padding-left: 20px
+}
+
+.footer-menu-part ul li a {
+    color: #fff !important;
+    line-height: 2.8;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: EffraRegular, "Myriad Pro", Arial, "Arial Black";
+    text-transform: uppercase;
+    padding-bottom: 10px
+}
+
+.footer-menu-part ul li ul {
+    margin-left: 0;
+    padding-top: 10px;
+    border-top: 1px #414040 solid
+}
+
+.footer-menu-part ul li ul li {
+    padding-left: 0;
+    border: 0
+}
+
+.footer-menu-part ul li ul li a {
+    color: ;
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 16px;
+    line-height: 1.8;
+    clear: both;
+    font-family: EffraRegular, "Myriad Pro", Arial, "Arial Black";
+    text-transform: capitalize;
+    padding: 0
+}
+
+.footer-menu-part ul li ul li a:before {
+    content: '-';
+    position: relative;
+    color: #fff;
+    padding-right: 6px
+}
+
+.footerlist li a:before {
+    display: none
+}
+
+.footer-terms {
+    text-align: right;
+    padding: 30px 62px 20px 0px
+}
+
+.footer-terms .copy-text {
+    display: inline-block;
+    text-transform: uppercase
+}
+
+.lgTxt {
+    padding-left: 25px
+}
+
+.copy-text {
+    color: #bcbec0;
+    padding-bottom: 0px;
+    margin: 0
+}
+
+.lgTxt a {
+    color: #bcbec0 !important;
+    text-decoration: none;
+    cursor: pointer
+}
+
+.scroll-here.bg-clr {
+    background: #323333;
+    clear: both;
+    border-top: 1px #414040 solid
+}
+
+.footer {
+    padding: 30px 0 20px 40px;
+    overflow: hidden;
+    color: #ccc;
+    clear: both;
+    padding-left: 10px
+}
+
+.footer-menu-part ul li a.description {
+    color: #029ca6;
+    line-height: 1.8;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: EffraRegular, "Myriad Pro", Arial, "Arial Black";
+    padding-bottom: 10px
+}
+
+.footer-menu-part p {
+    color: #fff;
+    padding-top: 10px;
+    line-height: 1.8;
+    text-transform: none;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: EffraRegular, "Myriad Pro", Arial, "Arial Black";
+    padding-bottom: 10px
+}
+
+ul.footerlist {
+    border-top: 0px !important
+}
+
+@media(min-width:300px) and (max-width:480px) {
+    .footer-container-wrapper .container {
+        width: auto
+    }
+    .footer-menu-part {
+        padding-top: 20px;
+        padding-bottom: 20px
+    }
+    .container .footerlist {
+        float: none
+    }
+    .footer-menu-part ul li {
+        padding-left: 0
+    }
+    .lgTxt {
+        padding: 0px 10px
+    }
+    .footer-terms {
+        padding: 0px 0px 20px 0px;
+        text-align: center
+    }
+    .menu-item-7083 {
+        clear: both
+    }
+    .footer {
+        padding-left: 0;
+        text-align: center
+    }
+}
+
+@media(min-width:480px) and (max-width:767px) {
+    .footer-container-wrapper .container {
+        width: auto
+    }
+    .footer-menu-part ul li {
+        padding-left: 0
+    }
+    .menu-item-7083 {
+        clear: both
+    }
+    .footer {
+        text-align: center;
+        padding: 30px 0 0px 0px
+    }
+    .footer-terms {
+        text-align: center;
+        padding: 30px 0px 20px 0px
+    }
+    .lgTxt {
+        padding: 0px 10px
+    }
+}
+
+@media(min-width:768px) and (max-width:991px) {
+    .footer-menu-part ul li {
+        padding-left: 0px
+    }
+    .footer-container-wrapper .container {
+        width: auto
+    }
+    .footer-menu-part ul li ul li a {
+        font-size: 14px
+    }
+    .footer {
+        padding: 30px 0 20px 0px;
+        font-size: 14px
+    }
+    .footer-terms {
+        padding: 30px 0px 20px 0px
+    }
+}
+
+@media(min-width:992px) and (max-width:1199px) {
+    .footer {
+        padding: 30px 0 20px 0px
+    }
+    .footer-menu-part ul li {
+        padding-left: 0
+    }
+    .footer-menu-part ul li ul li a {
+        font-size: 14px
+    }
+}
+
+@media(min-width:900px) and (max-width:1240px) {
+    .footer-terms .copy-text {
+        font-size: 14px
+    }
+}

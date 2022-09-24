@@ -1,0 +1,334 @@
+.footer-menu {
+    background: #323333;
+    float: left;
+    margin-top: 0;
+    width: 100%
+}
+
+span.footer-services {
+    color: #fff !important;
+    font-family: EffraRegular, Myriad Pro, Arial, Arial Black;
+    font-size: 20px;
+    line-height: 2.8;
+    padding-bottom: 10px;
+    text-decoration: none;
+    text-transform: uppercase
+}
+
+.new-footer-social {
+    background: #029ca6;
+    padding: 24px 70px
+}
+
+.footer-follow-txt {
+    color: #fff;
+    font-size: 20px;
+    padding: 14px 0
+}
+
+.footer-follow-txt,
+.new-footer-list {
+    display: inline-block;
+    vertical-align: middle
+}
+
+.new-footer-list {
+    float: right
+}
+
+.container .footerlist {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding: 5px 0 5px 5px
+}
+
+.footerlist {
+    float: left;
+    font-size: 0;
+    list-style: none;
+    margin: 0;
+    padding: 0
+}
+
+.new-footer-list .footerlist li {
+    margin: 0 12px 0 0
+}
+
+.footerlist li {
+    display: inline-block;
+    height: 52px !important;
+    margin: 0 5px 0 0;
+    width: 44px !important
+}
+
+.new-linkedin {
+    background: url(https://cdn2.hubspot.net/hubfs/5724847/Cyient-Website-2019/Header-Footer%20Images/iocn4.png) no-repeat 50%
+}
+
+.new-linkedin,
+.new-xing {
+    box-shadow: 0 2px 6px 0 #131313;
+    height: 35px !important;
+    margin-top: 4px;
+    width: 35px !important
+}
+
+.new-xing {
+    background: url(https://cdn2.hubspot.net/hubfs/5724847/Cyient-Website-2019/Header-Footer%20Images/icon1.png) no-repeat 50%
+}
+
+.new-yt {
+    background: url(https://cdn2.hubspot.net/hubfs/5724847/Cyient-Website-2019/Header-Footer%20Images/icon5.png) no-repeat 50%
+}
+
+.new-twitter,
+.new-yt {
+    box-shadow: 0 2px 6px 0 #131313;
+    height: 35px !important;
+    margin-top: 4px;
+    width: 35px !important
+}
+
+.new-twitter {
+    background: url(https://cdn2.hubspot.net/hubfs/5724847/Cyient-Website-2019/Header-Footer%20Images/icon3.png) no-repeat 50%
+}
+
+.new-facebook {
+    background: url(https://cdn2.hubspot.net/hubfs/5724847/Cyient-Website-2019/Header-Footer%20Images/icon2.png) no-repeat 50%;
+    box-shadow: 0 2px 6px 0 #131313;
+    height: 35px !important;
+    margin-top: 4px;
+    width: 35px !important
+}
+
+.inchat,
+.infacebook,
+.inlinkedin,
+.intwitter,
+.inx,
+.inyoutube {
+    display: block;
+    height: 32px;
+    transition: all .5s;
+    width: 32px
+}
+
+.footer-menu-part ul li:first-child {
+    padding: 0
+}
+
+.footer-menu-part {
+    padding-bottom: 40px;
+    padding-top: 40px
+}
+
+.footer-menu-part ul {
+    list-style: none;
+    overflow: hidden;
+    padding: 0
+}
+
+.footer-menu-part ul li {
+    padding-left: 20px;
+    vertical-align: top
+}
+
+.footer-menu-part ul li a {
+    color: #fff !important;
+    font-family: EffraRegular, Myriad Pro, Arial, Arial Black;
+    font-size: 20px;
+    line-height: 2.8;
+    padding-bottom: 10px;
+    text-decoration: none;
+    text-transform: uppercase
+}
+
+.footer-menu-part ul li ul {
+    border-top: 1px solid #414040;
+    margin-left: 0;
+    padding-top: 10px
+}
+
+.footer-menu-part ul li ul li {
+    border: none;
+    padding-left: 0
+}
+
+.footer-menu-part ul li ul li a {
+    border-radius: 50px;
+    clear: both;
+    font-family: EffraRegular, Myriad Pro, Arial, Arial Black;
+    font-size: 16px;
+    line-height: 1.8;
+    padding: 0;
+    text-decoration: none;
+    text-transform: capitalize
+}
+
+.footer-menu-part ul li ul li a:before {
+    color: #fff;
+    content: "-";
+    padding-right: 6px;
+    position: relative
+}
+
+.footerlist li a:before {
+    display: none
+}
+
+.footer-terms {
+    padding: 30px 62px 20px 0;
+    text-align: right
+}
+
+.footer-terms .copy-text {
+    display: inline-block;
+    text-transform: uppercase
+}
+
+.lgTxt {
+    padding-left: 25px
+}
+
+.copy-text {
+    color: #bcbec0;
+    margin: 0;
+    padding-bottom: 0
+}
+
+.lgTxt a {
+    color: #bcbec0 !important;
+    cursor: pointer;
+    text-decoration: none
+}
+
+.scroll-here.bg-clr {
+    background: #323333;
+    border-top: 1px solid #414040;
+    clear: both
+}
+
+.footer {
+    clear: both;
+    color: #ccc;
+    overflow: hidden;
+    padding: 30px 0 20px 10px
+}
+
+.footer-menu-part ul li a.description {
+    color: #029ca6;
+    text-transform: capitalize
+}
+
+.footer-menu-part p,
+.footer-menu-part ul li a.description {
+    font-family: EffraRegular, Myriad Pro, Arial, Arial Black;
+    font-size: 16px;
+    line-height: 1.8;
+    padding-bottom: 10px;
+    text-decoration: none
+}
+
+.footer-menu-part p {
+    color: #fff;
+    padding-top: 10px;
+    text-transform: none
+}
+
+ul.footerlist {
+    border-top: 0 !important
+}
+
+@media (min-width:300px) and (max-width:480px) {
+    .footer-container-wrapper .container {
+        width: auto
+    }
+    .footer-menu-part {
+        padding-bottom: 20px;
+        padding-top: 20px
+    }
+    .container .footerlist {
+        float: none
+    }
+    .footer-menu-part ul li {
+        padding-left: 0
+    }
+    .lgTxt {
+        padding: 0 10px
+    }
+    .footer-terms {
+        padding: 0 0 20px;
+        text-align: center
+    }
+    .menu-item-7083 {
+        clear: both
+    }
+    .footer {
+        padding-left: 0;
+        text-align: center
+    }
+}
+
+@media (min-width:480px) and (max-width:767px) {
+    .footer-container-wrapper .container {
+        width: auto
+    }
+    .footer-menu-part ul li {
+        padding-left: 0
+    }
+    .menu-item-7083 {
+        clear: both
+    }
+    .footer {
+        padding: 30px 0 0;
+        text-align: center
+    }
+    .footer-terms {
+        padding: 30px 0 20px;
+        text-align: center
+    }
+    .lgTxt {
+        padding: 0 10px
+    }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    .footer-menu-part ul li {
+        padding-left: 0
+    }
+    .footer-container-wrapper .container {
+        width: auto
+    }
+    .footer,
+    .footer-menu-part ul li ul li a {
+        font-size: 14px
+    }
+    .footer,
+    .footer-terms {
+        padding: 30px 0 20px
+    }
+}
+
+@media (min-width:992px) and (max-width:1199px) {
+    .footer {
+        padding: 30px 0 20px
+    }
+    .footer-menu-part ul li {
+        padding-left: 0
+    }
+    .footer-menu-part ul li ul li a {
+        font-size: 14px
+    }
+}
+
+@media (min-width:900px) and (max-width:1240px) {
+    .footer-terms .copy-text {
+        font-size: 14px
+    }
+}
+
+span.optanon-toggle-display {
+    color: #bcbec0 !important;
+    cursor: pointer;
+    text-decoration: none
+}

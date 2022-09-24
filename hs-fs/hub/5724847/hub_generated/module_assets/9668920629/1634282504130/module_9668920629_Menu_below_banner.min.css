@@ -1,0 +1,162 @@
+.greedy-nav {
+    position: relative;
+    min-width: 250px;
+    background-color: #f1f1f2;
+    margin-top: -5px
+}
+
+.greedy-nav .hidden-links a {
+    color: #fff
+}
+
+.greedy-nav a {
+    display: block;
+    padding: 16px 0;
+    font-size: 16px;
+    color: #009ba5;
+    text-decoration: none;
+    text-transform: capitalize;
+    letter-spacing: 1px
+}
+
+.greedy-nav a:hover,
+.greedy-nav a:focus {
+    color: #009ba5;
+    text-decoration: none
+}
+
+.greedy-nav button {
+    position: absolute;
+    height: 100%;
+    right: 0;
+    padding: 0 15px;
+    border: 0;
+    outline: 0;
+    background-color: #000;
+    color: #000;
+    cursor: pointer
+}
+
+.greedy-nav button:hover {
+    background-color: #009ba5
+}
+
+.greedy-nav button::after {
+    content: attr(count);
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: -16px;
+    top: 12px;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    font-size: 14px;
+    line-height: 24px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    font-weight: bold
+}
+
+.greedy-nav button:hover::after {
+    transform: scale(1.075);
+    background-color: #009ba5
+}
+
+.greedy-nav .hamburger {
+    position: relative;
+    width: 32px;
+    height: 4px;
+    background: #fff;
+    margin: auto
+}
+
+.greedy-nav .hamburger:before,
+.greedy-nav .hamburger:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 32px;
+    height: 4px;
+    background: #fff
+}
+
+.greedy-nav .hamburger:before {
+    top: -8px
+}
+
+.greedy-nav .hamburger:after {
+    bottom: -8px
+}
+
+.greedy-nav .visible-links {
+    display: inline-table;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden
+}
+
+.greedy-nav .visible-links li {
+    display: table-cell;
+    padding: 0 15px;
+    text-align: left
+}
+
+.greedy-nav .hidden-links {
+    position: absolute;
+    right: 0px;
+    z-index: 1;
+    min-width: 180px;
+    top: 100%;
+    background: #009ba5;
+    margin: 0;
+    z-index: 99;
+    padding: 0;
+    list-style: none
+}
+
+.hidden-links a:hover,
+.hidden-links a:focus {
+    color: #fff;
+    text-decoration: none
+}
+
+.greedy-nav .hidden-links li {
+    padding: 0 20px;
+    display: block;
+    border-top: 1px solid #f1f1f2
+}
+
+.greedy-nav .visible-links li a.active {
+    color: #009ba5;
+    text-decoration: none;
+    border-bottom: 3px solid #009ba5
+}
+
+.greedy-nav .hidden {
+    visibility: hidden
+}
+
+@media(min-width:480px) and (max-width:767px) {
+    .greedy-nav a {
+        font-size: 13px
+    }
+    .greedy-nav {
+        min-height: 57px
+    }
+}
+
+@media(min-width:310px) and (max-width:480px) {
+    .greedy-nav {
+        min-height: 57px
+    }
+}
+
+@media(min-width:1681px) and (max-width:2700px) {
+    .greedy-nav .visible-links li {
+        display: table-cell;
+        padding: 0 12px;
+        text-align: center
+    }
+}
